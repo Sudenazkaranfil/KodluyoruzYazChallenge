@@ -76,7 +76,7 @@ int main()
 /*💪🏻Hard: Bir tam sayı dizisi oluşturun. Kullanıcıdan alınan hedef sayı doğrultusunda sayı dizisinin içinden sayılar seçip toplayarak
 hedef sayıya ulaşmasını sağlamalısın. Farklı farklı kombinasyonlar ile hedef sayıya ulaşın. */
 
-#define BOYUT 100 //dizi  boyutu */
+#define BOYUT 100 //dizi  boyutu
 void kombinasyon(int dizi1[], int hedefSayisi, int toplam, int indeks, int dizi2[], int dizi2Indeksi, int* sayac)
 {
     if(*sayac>=10) //Kombinasyon sayısını 10 ile sınırlama
